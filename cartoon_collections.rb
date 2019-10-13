@@ -13,7 +13,7 @@ end
 
 def long_planeteer_calls(array)
   array.reduce{|item|
-    puts item.length > 4 ? "true" : "false"
+    puts item.length > 4 ? 'Too many characters' : 'Accepted'
   }
 end
 
