@@ -25,4 +25,4 @@ def find_the_cheese(array)
   }
 end
 
-find_the_cheese(["food", "cheddar", "apples"])
+p find_the_cheese(["food", "cheddar", "apples"])
