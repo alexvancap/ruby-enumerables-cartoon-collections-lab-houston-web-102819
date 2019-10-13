@@ -32,4 +32,4 @@ def find_the_cheese(array)
   }
 end
 
-puts find_the_cheese(["brie", "kees", "camembert"])
+puts find_the_cheese(["cheddar", "kees", "camembert"])
