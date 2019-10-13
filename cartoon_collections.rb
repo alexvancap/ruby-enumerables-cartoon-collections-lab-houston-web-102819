@@ -20,12 +20,12 @@ def find_the_cheese(array)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
   array.reduce{|string|
-     cheese_types.length.times{ |index|  
-       if string.include?
-         return true
+     cheese_types.length.times{ |index|
+       if string.include(inde)
+         return
     }
   }
-  
+
   }
 end
 
