@@ -7,7 +7,7 @@ end
 def summon_captain_planet(array)
   new_array = []
   array.map{|string|
-    string.upcase
+    string.capitalize
   }
 end
 
