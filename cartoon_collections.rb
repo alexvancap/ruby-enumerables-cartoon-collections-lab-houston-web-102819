@@ -11,7 +11,7 @@ def summon_captain_planet(array)
   }
 end
 
-summon_captain_planet(["cheddar", "gouda", "camembert"])
+p summon_captain_planet(["cheddar", "gouda", "camembert"])
 
 def long_planeteer_calls# code an argument here
   # Your code here
