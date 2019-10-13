@@ -21,4 +21,5 @@ def find_the_cheese(array)
   array.map{|string|
     return string if cheese_types.include?(string)
   }
+  return nil
 end
