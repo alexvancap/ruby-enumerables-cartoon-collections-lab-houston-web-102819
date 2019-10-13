@@ -1,4 +1,4 @@
-def roll_call_dwarves(array){ |item, index|
+def roll_call_dwarves(array){|item, index|
   hash[item] = index
 }
 end
