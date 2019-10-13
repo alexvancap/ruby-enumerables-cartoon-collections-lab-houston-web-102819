@@ -1,6 +1,5 @@
-def roll_call_dwarves(array){|item, index|
-  hash[item] = index
-}
+def roll_call_dwarves(array) do
+  array.each_with_index {|item, index| array[index] = item[index]]
 end
 
 def summon_captain_planet# code an argument here
