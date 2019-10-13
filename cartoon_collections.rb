@@ -13,7 +13,7 @@ end
 
 def long_planeteer_calls(array)
   array.reduce{|item|
-    if item.length < 4
+    if item.length < 3
       return false
     else
       return true
