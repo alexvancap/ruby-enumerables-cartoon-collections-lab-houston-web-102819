@@ -12,7 +12,7 @@ def summon_captain_planet(array)
 end
 
 def long_planeteer_calls(array)
-  array.none? {|item| item > 4}
+  return array.none? {|item| item > 4}
 end
 
 long_planeteer_calls(["arra", "hi", "yow"])
