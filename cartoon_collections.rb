@@ -12,9 +12,7 @@ def summon_captain_planet(array)
 end
 
 def long_planeteer_calls(array)
-  array.reduce{|item|
-    puts item.size > 4 ? 'Too many characters' : 'Accepted'
-  }
+  array.none? {|item| item > 4}
 end
 
 long_planeteer_calls(["arra", "hi", "yow"])
