@@ -15,7 +15,7 @@ def long_planeteer_calls(array)
   return array.none? {|item| item.length > 4}
 end
 
-puts long_planeteer_calls(["arra", "hi", "yow"])
+puts long_planeteer_calls(["axe", "earth", "wind", "fire"])
 
 def find_the_cheese# code an argument here
   # the array below is here to help
