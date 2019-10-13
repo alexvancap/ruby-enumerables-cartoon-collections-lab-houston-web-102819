@@ -31,5 +31,3 @@ def find_the_cheese(array)
     return nil
   }
 end
-
-puts find_the_cheese(["cheddar", "kees", "camembert"])
