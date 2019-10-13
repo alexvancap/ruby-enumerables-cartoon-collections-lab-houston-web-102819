@@ -19,7 +19,7 @@ def find_the_cheese(array)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
   array.reduce{|string|
-    cheese_types.include?(string)? string : nil
+    puts i if cheese_types.include?(string)?
   }
 end
 
