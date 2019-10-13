@@ -24,6 +24,8 @@ def find_the_cheese(array)
        if string.include? (cheese_types[index])
          puts 1
          return string
+       else
+         puts 2
        end
     }
     return nil
