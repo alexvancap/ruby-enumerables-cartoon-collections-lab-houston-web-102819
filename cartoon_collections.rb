@@ -22,5 +22,3 @@ def find_the_cheese(array)
     return string if cheese_types.include?(string)
   }
 end
-
-p find_the_cheese(["dd", "gouda", "camembert"])
