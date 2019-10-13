@@ -23,7 +23,6 @@ def find_the_cheese(array)
      cheese_types.length.times{ |index|
        if string.include? (cheese_types[index])
          return string
-       else
        end
     }
     return nil
