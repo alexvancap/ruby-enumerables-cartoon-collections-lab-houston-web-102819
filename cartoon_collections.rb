@@ -6,7 +6,9 @@ end
 
 def summon_captain_planet(array)
   new_array = []
-  
+  array.map{|index|
+    new_array.push(array[])
+  }
 end
 
 def long_planeteer_calls# code an argument here
