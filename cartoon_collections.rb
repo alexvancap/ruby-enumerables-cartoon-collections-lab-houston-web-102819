@@ -20,7 +20,7 @@ def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   array.reduce{|string|
     if cheese_types.include?(string)
-      return string
+      p string
     end
   }
 end
