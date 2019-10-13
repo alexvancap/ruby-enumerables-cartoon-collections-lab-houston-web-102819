@@ -22,10 +22,8 @@ def find_the_cheese(array)
   array.reduce{|string|
      cheese_types.length.times{ |index|
        if string.include? (cheese_types[index])
-         puts 1
          return string
        else
-         puts 2
        end
     }
     return nil
